@@ -2,7 +2,7 @@
  * PersistenceManager.h
  *
  *  Created on: May 23, 2016
- *      Author: raydelto
+ *      Author: eddymanueldiazgarcia
  */
 
 #ifndef PERSISTENCEMANAGER_H_
@@ -12,8 +12,8 @@
 
 class PersistenceManager
 {
-	public:
-		PersistenceManager();
+public:
+	PersistenceManager();
 };
 
 #endif /* PERSISTENCEMANAGER_H_ */

@@ -1,6 +1,6 @@
 #ITLA PhoneBook
 
-This is an academic assignment created by Professor Raydelto Hernandez for his students at Las Americas Institute of technology (www.itla.edu.do).
+This is an academic assignment created by eddymanueldiazgarcia for his students at Las Americas Institute of technology (www.itla.edu.do).
 
 The objective of this assignment is to test student's ability to create their own implementation of the linked list abstract data type and file handling.
 

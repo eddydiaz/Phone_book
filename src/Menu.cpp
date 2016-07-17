@@ -2,7 +2,7 @@
  * Menu.cpp
  *
  *  Created on: May 22, 2016
- *      Author: raydelto
+ *      Author: eddymanueldiazgarcia
  */
 
 #include "Menu.h"
@@ -16,20 +16,20 @@ Menu::Menu()
 
 void Menu::clearScreen()
 {
-	#ifdef _WIN32
+#ifdef _WIN32
 	system("cls");
-	#else
+#else
 	system("clear");
-	#endif
+#endif
 }
 
 void Menu::pause()
 {
-	#ifdef _WIN32
+#ifdef _WIN32
 	system("pause");
-	#else
+#else
 	system("read -n1 -r -p \"Press any key to continue...\" key");
-	#endif
+#endif
 }
 
 
@@ -50,21 +50,21 @@ void Menu::routeAction(int option)
 {
 	switch(option)
 	{
-	case 1:
-		listContacts();
-		break;
-	case 2:
-		addContacts();
-		break;
-	case 3:
-		removeContacts();
-		break;
-	case 4:
-		modifyContacts();
-		break;
+		case 1:
+			listContacts();
+			break;
+		case 2:
+			addContacts();
+			break;
+		case 3:
+			removeContacts();
+			break;
+		case 4:
+			modifyContacts();
+			break;
 
-	case 5:
-		cout << "Thanks for using our software, good bye!" << endl;
+		case 5:
+			cout << "Thanks for using our software, good bye!" << endl;
 	}
 	pause();
 }
